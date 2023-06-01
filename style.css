@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-principal{
+    background-color: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 60px);
+}
+
+.botao-busca{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca{
+    width: 20px;
+}
+
+.caixa-secundaria{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-previsao{
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #ffffff;
+    margin-top: 20px;
+}
